@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HW05</string>
+    <string name="app_name_sys_info">System info</string>
+    <string name="app_name_communication">Fragments communication</string>
+</resources>

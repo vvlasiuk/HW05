@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/internetInfo_tv"
+            android:text="TextView that contain internet connection details"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chargingInfo_tv"
+            android:text="Device charging state (Charger is connected or not)"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/headphonesInfo_tv"
+            tools:text="Is headphones or headset plugged"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DateInfo_tv"
+            android:text="CurrentDate and TimeZone"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"/>
+</LinearLayout>
