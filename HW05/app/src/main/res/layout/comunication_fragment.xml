@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <fragment
+            android:id="@+id/fragment_blue_fl"
+            android:name="net.ukr.vlsv.hw05.fragments.ComunicationFragmentBlue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/comunication_fragment_blue">
+    </fragment>
+    <fragment
+            android:id="@+id/fragment_green_fl"
+            android:name="net.ukr.vlsv.hw05.fragments.ComunicationFragmentGreen"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            tools:layout="@layout/comunication_fragment_green">
+    </fragment>
+</LinearLayout>
